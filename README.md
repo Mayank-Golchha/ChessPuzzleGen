@@ -47,9 +47,18 @@ https://stockfishchess.org/download/
 4. **Save the path of the Stockfish executable:**
 Put the stockfish executable path in the file named stockfish_path.txt in the project folder
 
-**Notes**
+5. **Run The Generator:**
+```bash
+py chess_puzzle_generator.py
+```
+
+---
+## Notes
 
 Stockfish Depth: Higher depth = stronger AI evaluation but slower puzzle generation.
+
 AI Difficulty: The GA tries to find positions where lower-depth analysis misleads, making puzzles more challenging.
+
 Legal Compliance: Stockfish is not included in this repo; users must download it separately.
+
 Custom Difficulty: You can tweak GA parameters, Stockfish depth, or allow more hidden tactical moves for harder puzzles.
