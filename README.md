@@ -26,6 +26,13 @@ This project uses a genetic algorithm (GA) combined with Stockfish, a powerful c
 
 ---
 
+## Example
+Here are some examples of generated chess puzzles:
+
+![Screenshot 1](Assets/img1.png)
+![Screenshot 2](Assets/img2.png)
+![Screenshot 3](Assets/img3.png)
+
 ## Installation
 
 1. **Clone the repository:**
