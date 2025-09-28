@@ -28,11 +28,14 @@ This project uses a genetic algorithm (GA) combined with Stockfish, a powerful c
 
 ## Example
 Here are some examples of generated chess puzzles:
-FEN : `7N/p3P1P1/B7/3K3p/k1p4P/3N2p1/n6q/1B1rRR2 w - - 0 1`
+
+**FEN :** `7N/p3P1P1/B7/3K3p/k1p4P/3N2p1/n6q/1B1rRR2 w - - 0 1`
 ![Screenshot 1](Assets/img1.png)
-FEN : `k4B2/b7/1n4P1/4Q3/4qK2/P2pP3/1prb3R/8 w - - 0 1`
+
+**FEN :** `k4B2/b7/1n4P1/4Q3/4qK2/P2pP3/1prb3R/8 w - - 0 1`
 ![Screenshot 2](Assets/img2.png)
-FEN : `R3R1r/3QK3/8/4b2k/2n2r2/B5p1/q1pb2Bp/1n6 w - - 0 1`
+
+**FEN :** `R3R1r/3QK3/8/4b2k/2n2r2/B5p1/q1pb2Bp/1n6 w - - 0 1`
 ![Screenshot 3](Assets/img3.png)
 
 ## Installation
