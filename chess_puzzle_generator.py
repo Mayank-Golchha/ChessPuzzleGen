@@ -386,6 +386,7 @@ def Evolution():
     generation = 1
     found = False
     population = []
+    total_generation = 30
     print("starting...")
 
     for _ in range(POPULATION_SIZE):
@@ -394,7 +395,7 @@ def Evolution():
 
     while not found:
         population = sorted(population,key=lambda x:x.fitness)
-        if generation >= 30:
+        if generation >= total_generation:
             break
 
         new_generation = []
@@ -420,7 +421,7 @@ def Evolution():
 
         population = new_generation
         fen_ = str(population[0].print())
-        print("Generation : ",generation, "FEN : " + fen_ + " Fitness : " ,population[0].fitness/100)
+        print("Generation : ",generation ,"/",total_generation, " FEN : " + fen_ + " Fitness : " ,population[0].fitness/100)
         if fen_ not in stored_fen:
             file.write(str(population[0].print()) + "\n")
             file.flush()
@@ -441,3 +442,4 @@ Evolution()
 
 engine.quit()
 file.close()
+
