@@ -31,7 +31,7 @@ This project uses a genetic algorithm (GA) combined with Stockfish, a powerful c
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/Mayank-Golchhs/ChessPuzzleGen.git
+git clone https://github.com/Mayank-Golchha/ChessPuzzleGen.git
 cd ChessPuzzleGen
 ```
 
