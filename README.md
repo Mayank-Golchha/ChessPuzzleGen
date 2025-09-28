@@ -22,7 +22,7 @@ This project uses a genetic algorithm (GA) combined with Stockfish, a powerful c
 3. **Genetic Algorithm:** Positions “mate” with each other to create new boards. Random moves or pieces are sometimes added to increase difficulty.
 4. **Fitness Calculation:** Positions are scored based on Stockfish evaluation, mate-in moves, material, and hidden tactical opportunities.
 5. **Iteration:** Over multiple generations, the system evolves positions toward harder puzzles.
-6. **Output:** The most challenging puzzles are saved to a file.
+6. **Output:** The most challenging puzzles are saved to a file. Bottom of the file should have more interesting ones
 
 ---
 
